@@ -10,29 +10,30 @@
 import sys
 
 def main:
-    Sname ="Derek Brambles"
-    ColGPA = 1.389454
-    HighGPA = 3.7
+    #Constants
+    S_NAME ="Derek Brambles"
+    COL_GPA = 1.389454
+    HIGH_GPA = 3.7
     #Booleans are capitalized
-    weighted = True
-    RoundedGPA = 0.0
+    WEIGHTED = True
+    ROUNDED_GPA = 0.0
     #used as a temporary variable to store user choice
     kbw = "x";
 
     #by default stdin takes input as strings
     #therefore we have to explicitly cast the input as a float
     print("Please enter the students name:")
-    Sname = sys.stdin.readline()
+    S_NAME = sys.stdin.readline()
     print("Please enter the students College GPA:")
-    ColGPA = float(sys.stdin.readline())
+    COL_GPA = float(sys.stdin.readline())
     print("Please enter the students High School GPA:")
-    HighGPA = float(sys.stdin.readline())
+    HIGH_GPA = float(sys.stdin.readline())
     print("Is the High School GPA weighted? y/n:")
-    kbw = sys.stdin.readline()
+    KBW = sys.stdin.readline()
 
-    kbw = kbw.strip()
+    KBW = kbw.strip()
     #print(kbw)
-    if(kbw == "y"):
+    if(KBW == "y"):
         weighted = True
     elif(kbw == "n"):
         weighted = False
