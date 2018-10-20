@@ -16,7 +16,8 @@ def main:
     HIGH_GPA = 3.7
     #Booleans are capitalized
     WEIGHTED = True
-    ROUNDED_GPA = 0.0
+    
+    rounded_gpa = 0.0
     #used as a temporary variable to store user choice
     kbw = "x";
 
@@ -29,11 +30,10 @@ def main:
     print("Please enter the students High School GPA:")
     HIGH_GPA = float(sys.stdin.readline())
     print("Is the High School GPA weighted? y/n:")
-    KBW = sys.stdin.readline()
+    kbw = sys.stdin.readline().strip
 
-    KBW = kbw.strip()
     #print(kbw)
-    if(KBW == "y"):
+    if(kbw == "y"):
         weighted = True
     elif(kbw == "n"):
         weighted = False
@@ -42,19 +42,19 @@ def main:
 
     # #
     #
-    if(weighted):
-        RoundedGPA = round(((min(4, HighGPA) + (2 * ColGPA))/3), 2)
+    if(WEIGHTED):
+        rounded_gpa = round(((min(4, HIGH_GPA) + (2 * COL_GPA))/3), 2)
     else:
-        RoundedGPA = round(((HighGPA + ColGPA)/2), 2)
+        rounded_gpa = round(((HIGH_GPA + COL_GPA)/2), 2)
 
-    print("Student Name: ", Sname)
-    print("College GPA: ", ColGPA)
-    if(weighted):
-        print("High School GPA (Weighted): ", HighGPA)
+    print("Student Name: ", SNAME)
+    print("College GPA: ", COL_GPA)
+    if(WEIGHTED):
+        print("High School GPA (Weighted): ", HIGH_GPA)
     else:
-	    print("High School GPA (Unweighted): ", HighGPA)
+	    print("High School GPA (Unweighted): ", HIGH_GPA)
 
-    print("Rounded GPA (Weighted): ", RoundedGPA)
+    print("Rounded GPA (Weighted): ", rounded_gpa)
 
 if __name__== "__main__":
   main()
