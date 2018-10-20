@@ -1,0 +1,1904 @@
+{
+    "lens_id": "",
+    "document_id": "bAfZdxxxxR5YUEeMvx3C",
+    "original_document_id": "bAfZdxxxxR5YUEeMvx3C",
+    "version": "1",
+    "lastChanged": "1540065427401",
+    "preview": "icon.png",
+    "isReadOnly": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "1",
+            "minor": "7",
+            "patch": "0",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "1",
+            "minor": "7",
+            "patch": "0",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Materials"
+                    ],
+                    [
+                        "Meshes"
+                    ],
+                    [
+                        "Red_Panda_FBX [REMOVE_ME]"
+                    ],
+                    [
+                        "Scripts"
+                    ],
+                    [
+                        "Textures"
+                    ],
+                    [
+                        "animation"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "1508869195559043:43763",
+                    "1520375901752793:958230"
+                ]
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "f73cc7c65db196f1c96fa85f2edca9b5",
+            "icon_path": "icon.png",
+            "hints": [
+                ""
+            ],
+            "lens": "Animated Object",
+            "camera": "1",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "is_back_camera": "true",
+            "show_snap_ui": "true"
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                [
+                    "1540064629513151:10967"
+                ]
+            ]
+        },
+        "LayerUiComponent": {
+            "colorMap": [
+                {
+                    "k": "1",
+                    "v": "20"
+                }
+            ]
+        }
+    },
+    "model": {
+        "ResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0",
+                    "type": "1",
+                    "subtype": "1"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0",
+                    "type": "1",
+                    "subtype": "3"
+                },
+                {
+                    "resId": "5",
+                    "uid": "1498868100994851:367",
+                    "name": "\/Resources\/Resource5.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "ground_grid_mesh"
+                    },
+                    "flags": "5",
+                    "type": "3",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "7",
+                    "uid": "1498868158392542:504",
+                    "name": "\/Resources\/Resource7.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "9",
+                    "uid": "1498868172316494:515",
+                    "name": "\/Resources\/Resource9.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1498868172318940:524",
+                    "name": "\/Resources\/Resource10.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "11",
+                    "uid": "1498868172319414:533",
+                    "name": "\/Resources\/Resource11",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1498868868171510:1508",
+                    "name": "\/Resources\/Resource13.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1499276508720146:1345",
+                    "name": "\/Resources\/Resource14.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "64",
+                    "uid": "1508869195711909:43787",
+                    "name": "\/Resources\/Resource64.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "relative": "",
+                        "absolute": ""
+                    },
+                    "flags": "5",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "67",
+                    "uid": "1508869195571661:43778",
+                    "name": "\/Resources\/Resource67.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "red_panda_lo"
+                    },
+                    "flags": "5",
+                    "type": "3",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "68",
+                    "uid": "1508869195718558:43805",
+                    "name": "\/Resources\/Resource68.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "innertube_lo"
+                    },
+                    "flags": "5",
+                    "type": "3",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "69",
+                    "uid": "1508869195932148:44447",
+                    "name": "\/Resources\/Resource69",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_09_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "70",
+                    "uid": "1508869195991394:44627",
+                    "name": "\/Resources\/Resource70",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_toe_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "71",
+                    "uid": "1508869195987548:44615",
+                    "name": "\/Resources\/Resource71",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_foot_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "72",
+                    "uid": "1508869195979679:44591",
+                    "name": "\/Resources\/Resource72",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_knee_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "73",
+                    "uid": "1508869195983628:44603",
+                    "name": "\/Resources\/Resource73",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_l_knee_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "74",
+                    "uid": "1508869195971686:44567",
+                    "name": "\/Resources\/Resource74",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_leg_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "75",
+                    "uid": "1508869195975672:44579",
+                    "name": "\/Resources\/Resource75",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_leg_T_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "76",
+                    "uid": "1508869195967817:44555",
+                    "name": "\/Resources\/Resource76",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_toe_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "77",
+                    "uid": "1508869195963641:44543",
+                    "name": "\/Resources\/Resource77",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_foot_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "78",
+                    "uid": "1508869195943835:44483",
+                    "name": "\/Resources\/Resource78",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "hips_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "79",
+                    "uid": "1508869195920528:44411",
+                    "name": "\/Resources\/Resource79",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_06_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "80",
+                    "uid": "1508869195770220:43955",
+                    "name": "\/Resources\/Resource80",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "COG_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "81",
+                    "uid": "1508869195751556:43895",
+                    "name": "\/Resources\/Resource81",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_side_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "82",
+                    "uid": "1508869195746850:43883",
+                    "name": "\/Resources\/Resource82",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_side_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "83",
+                    "uid": "1508869195737969:43859",
+                    "name": "\/Resources\/Resource83",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "head_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "84",
+                    "uid": "1508869195759300:43919",
+                    "name": "\/Resources\/Resource84",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_side_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "85",
+                    "uid": "1508869195798812:44039",
+                    "name": "\/Resources\/Resource85",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_ear_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "86",
+                    "uid": "1508869195842044:44171",
+                    "name": "\/Resources\/Resource86",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_hand_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "87",
+                    "uid": "1508869195865396:44243",
+                    "name": "\/Resources\/Resource87",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_upperarm_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "88",
+                    "uid": "1508869195877371:44279",
+                    "name": "\/Resources\/Resource88",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_latwist_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "89",
+                    "uid": "1508869195904718:44363",
+                    "name": "\/Resources\/Resource89",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "90",
+                    "uid": "1508869195854176:44207",
+                    "name": "\/Resources\/Resource90",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_finger_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "91",
+                    "uid": "1508869195833635:44147",
+                    "name": "\/Resources\/Resource91",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_l_arm_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "92",
+                    "uid": "1508869195782726:43991",
+                    "name": "\/Resources\/Resource92",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "Spine_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "93",
+                    "uid": "1508869195881325:44291",
+                    "name": "\/Resources\/Resource93",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_hand_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "94",
+                    "uid": "1508869195774122:43967",
+                    "name": "\/Resources\/Resource94",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "Spine_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "95",
+                    "uid": "1508869195869137:44255",
+                    "name": "\/Resources\/Resource95",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_atwist_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "96",
+                    "uid": "1508869195766782:43943",
+                    "name": "\/Resources\/Resource96",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_side_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "97",
+                    "uid": "1508869195821884:44111",
+                    "name": "\/Resources\/Resource97",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_clavicle_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "98",
+                    "uid": "1508869195896738:44339",
+                    "name": "\/Resources\/Resource98",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_finger_04JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "99",
+                    "uid": "1508869195936030:44459",
+                    "name": "\/Resources\/Resource99",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_10_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "100",
+                    "uid": "1508869195928333:44435",
+                    "name": "\/Resources\/Resource100",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_08_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "101",
+                    "uid": "1508869195846516:44183",
+                    "name": "\/Resources\/Resource101",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_finger_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "102",
+                    "uid": "1508869195830069:44135",
+                    "name": "\/Resources\/Resource102",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_atwist_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "103",
+                    "uid": "1508869195762975:43931",
+                    "name": "\/Resources\/Resource103",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_side_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "104",
+                    "uid": "1508869195837465:44159",
+                    "name": "\/Resources\/Resource104",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_latwist_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "105",
+                    "uid": "1508869195818095:44099",
+                    "name": "\/Resources\/Resource105",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_ear_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "106",
+                    "uid": "1508869195900837:44351",
+                    "name": "\/Resources\/Resource106",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "107",
+                    "uid": "1508869195790568:44015",
+                    "name": "\/Resources\/Resource107",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "neck_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "108",
+                    "uid": "1508869195755580:43907",
+                    "name": "\/Resources\/Resource108",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_side_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "109",
+                    "uid": "1508869195908795:44375",
+                    "name": "\/Resources\/Resource109",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "110",
+                    "uid": "1508869195861570:44231",
+                    "name": "\/Resources\/Resource110",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_clavicle_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "111",
+                    "uid": "1508869195892961:44327",
+                    "name": "\/Resources\/Resource111",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_finger_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "112",
+                    "uid": "1508869195889103:44315",
+                    "name": "\/Resources\/Resource112",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_finger_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "113",
+                    "uid": "1508869195810514:44075",
+                    "name": "\/Resources\/Resource113",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_ear_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "114",
+                    "uid": "1508869195814373:44087",
+                    "name": "\/Resources\/Resource114",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_ear_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "115",
+                    "uid": "1508869195728795:43835",
+                    "name": "\/Resources\/Resource115",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "back_floater_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "116",
+                    "uid": "1508869195850406:44195",
+                    "name": "\/Resources\/Resource116",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_finger_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "117",
+                    "uid": "1508869195802805:44051",
+                    "name": "\/Resources\/Resource117",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_ear_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "118",
+                    "uid": "1508869195719504:43811",
+                    "name": "\/Resources\/Resource118",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "FLOATER_JNT_GRP",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "119",
+                    "uid": "1508869195725357:43823",
+                    "name": "\/Resources\/Resource119",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "floater_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "120",
+                    "uid": "1508869195873331:44267",
+                    "name": "\/Resources\/Resource120",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_l_arm_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "121",
+                    "uid": "1508869195742884:43871",
+                    "name": "\/Resources\/Resource121",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "head_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "122",
+                    "uid": "1508869195885239:44303",
+                    "name": "\/Resources\/Resource122",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "right_finger_01_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "123",
+                    "uid": "1508869195806710:44063",
+                    "name": "\/Resources\/Resource123",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_ear_03_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "124",
+                    "uid": "1508869195912561:44387",
+                    "name": "\/Resources\/Resource124",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_04_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "125",
+                    "uid": "1508869195778249:43979",
+                    "name": "\/Resources\/Resource125",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "Spine_02_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "126",
+                    "uid": "1508869195794436:44027",
+                    "name": "\/Resources\/Resource126",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "head_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "127",
+                    "uid": "1508869195825691:44123",
+                    "name": "\/Resources\/Resource127",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_upperarm_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "128",
+                    "uid": "1508869195786381:44003",
+                    "name": "\/Resources\/Resource128",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "Spine_04_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "129",
+                    "uid": "1508869195857857:44219",
+                    "name": "\/Resources\/Resource129",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_finger_04_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "130",
+                    "uid": "1508869195916764:44399",
+                    "name": "\/Resources\/Resource130",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_05_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "131",
+                    "uid": "1508869195924405:44423",
+                    "name": "\/Resources\/Resource131",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_07_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "132",
+                    "uid": "1508869195732673:43847",
+                    "name": "\/Resources\/Resource132",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "front_floater_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "133",
+                    "uid": "1508869195939868:44471",
+                    "name": "\/Resources\/Resource133",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "tail_11_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "134",
+                    "uid": "1508869195951602:44507",
+                    "name": "\/Resources\/Resource134",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_leg_T_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "135",
+                    "uid": "1508869195955413:44519",
+                    "name": "\/Resources\/Resource135",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_knee_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "136",
+                    "uid": "1508869195947832:44495",
+                    "name": "\/Resources\/Resource136",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_leg_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "137",
+                    "uid": "1508869195959360:44531",
+                    "name": "\/Resources\/Resource137",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "left_l_knee_JNT",
+                        "animationLayer": "BaseLayer"
+                    },
+                    "flags": "4",
+                    "type": "8",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "146",
+                    "uid": "1508869669602876:51939",
+                    "name": "\/Resources\/Resource146.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "147",
+                    "uid": "1508869669694922:51948",
+                    "name": "\/Resources\/Resource147.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "156",
+                    "uid": "1508880320211090:76268",
+                    "name": "\/Resources\/Resource156.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "157",
+                    "uid": "1508880320229720:76277",
+                    "name": "\/Resources\/Resource157.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "160",
+                    "uid": "1508880728097855:76417",
+                    "name": "\/Resources\/Resource160.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "name": "TouchCollisionCube"
+                    },
+                    "flags": "5",
+                    "type": "3",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "167",
+                    "uid": "1511398066502947:21445",
+                    "name": "\/Resources\/Resource167",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "168",
+                    "uid": "1511398066504473:21457",
+                    "name": "\/Resources\/Resource168.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "3",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "169",
+                    "uid": "1511399587522424:24419",
+                    "name": "\/Resources\/Resource169",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "170",
+                    "uid": "1519939440902499:440957",
+                    "name": "\/Resources\/Resource170",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "172",
+                    "uid": "1540064629692322:10980",
+                    "name": "\/Resources\/Resource172",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "174",
+                    "uid": "1540064946509979:14204",
+                    "name": "\/Resources\/Resource174",
+                    "sourceFilePath": "C:\/Users\/claud\/AppData\/Local\/Temp\/Lens Studio-hfMGDt\/animation.t3d",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "5"
+                }
+            ]
+        },
+        "InspectorComponent": {
+            "Component": {
+                "AudioEffectComponent": {
+                    "presetsMap": "",
+                    "samplesMap": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1498868100994780:363",
+                "1": "1507675612124687:16502",
+                "2": "1511398066499868:21439",
+                "3": "1519939391233747:433312",
+                "4": "1520375901752793:958230",
+                "5": "1540064629513045:10965"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "3",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "1",
+                    "layerName": "Default Layer",
+                    "layerMask": "1"
+                },
+                {
+                    "layerId": "2",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn"
+        }
+    },
+    "controller": {
+        "InspectorController": {
+            "selection": {
+                "objects": [
+                    "1540064629513045:10965"
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        },
+        "ResourceController": {
+            "tree": {
+                "name": "Root",
+                "groups": [
+                    {
+                        "name": "Scripts",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "GroundGrid",
+                                "resourceId": "7",
+                                "extension": "js"
+                            },
+                            {
+                                "name": "WorldObjectController",
+                                "resourceId": "13",
+                                "extension": "js"
+                            },
+                            {
+                                "name": "IdleAnim",
+                                "resourceId": "14",
+                                "extension": "js"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Textures",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "camera_output",
+                                "resourceId": "1",
+                                "extension": ""
+                            },
+                            {
+                                "name": "device_camera_texture",
+                                "resourceId": "2",
+                                "extension": ""
+                            },
+                            {
+                                "name": "ground_grid",
+                                "resourceId": "9",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "ground_grid_mask",
+                                "resourceId": "10",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "marvista_diff",
+                                "resourceId": "156",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "marvista_spec",
+                                "resourceId": "157",
+                                "extension": "png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Meshes",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "ground_grid_mesh",
+                                "resourceId": "5",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "touch_collision_cube",
+                                "resourceId": "160",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "Plane",
+                                "resourceId": "168",
+                                "extension": "mesh"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Materials",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "ground_grid",
+                                "resourceId": "11",
+                                "extension": ""
+                            },
+                            {
+                                "name": "matte_shadow",
+                                "resourceId": "167",
+                                "extension": ""
+                            },
+                            {
+                                "name": "touch_collision",
+                                "resourceId": "169",
+                                "extension": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red_Panda_FBX [REMOVE_ME]",
+                        "groups": [
+                            {
+                                "name": "Textures",
+                                "groups": "",
+                                "resources": [
+                                    {
+                                        "name": "red_panda_base",
+                                        "resourceId": "64",
+                                        "extension": "png"
+                                    },
+                                    {
+                                        "name": "red_panda_normal",
+                                        "resourceId": "146",
+                                        "extension": "png"
+                                    },
+                                    {
+                                        "name": "red_panda_param",
+                                        "resourceId": "147",
+                                        "extension": "png"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Materials",
+                                "groups": "",
+                                "resources": [
+                                    {
+                                        "name": "red_panda_pbr",
+                                        "resourceId": "170",
+                                        "extension": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Meshes",
+                                "groups": "",
+                                "resources": [
+                                    {
+                                        "name": "red_panda_lo",
+                                        "resourceId": "67",
+                                        "extension": "mesh"
+                                    },
+                                    {
+                                        "name": "innertube_lo",
+                                        "resourceId": "68",
+                                        "extension": "mesh"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Animations",
+                                "groups": "",
+                                "resources": [
+                                    {
+                                        "name": "FLOATER_JNT_GRP",
+                                        "resourceId": "118",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "floater_JNT",
+                                        "resourceId": "119",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "back_floater_JNT",
+                                        "resourceId": "115",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "front_floater_JNT",
+                                        "resourceId": "132",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "head_01_JNT",
+                                        "resourceId": "83",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "head_02_JNT",
+                                        "resourceId": "121",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_side_01_JNT",
+                                        "resourceId": "82",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_side_03_JNT",
+                                        "resourceId": "81",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_side_02_JNT",
+                                        "resourceId": "108",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_side_01_JNT",
+                                        "resourceId": "84",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_side_02_JNT",
+                                        "resourceId": "103",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_side_03_JNT",
+                                        "resourceId": "96",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "COG_JNT",
+                                        "resourceId": "80",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "Spine_01_JNT",
+                                        "resourceId": "94",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "Spine_02_JNT",
+                                        "resourceId": "125",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "Spine_03_JNT",
+                                        "resourceId": "92",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "Spine_04_JNT",
+                                        "resourceId": "128",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "neck_JNT",
+                                        "resourceId": "107",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "head_JNT",
+                                        "resourceId": "126",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_ear_01_JNT",
+                                        "resourceId": "85",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_ear_02_JNT",
+                                        "resourceId": "117",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_ear_03_JNT",
+                                        "resourceId": "123",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_ear_01_JNT",
+                                        "resourceId": "113",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_ear_02_JNT",
+                                        "resourceId": "114",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_ear_03_JNT",
+                                        "resourceId": "105",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_clavicle_JNT",
+                                        "resourceId": "97",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_upperarm_JNT",
+                                        "resourceId": "127",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_atwist_JNT",
+                                        "resourceId": "102",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_l_arm_JNT",
+                                        "resourceId": "91",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_latwist_JNT",
+                                        "resourceId": "104",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_hand_JNT",
+                                        "resourceId": "86",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_finger_01_JNT",
+                                        "resourceId": "101",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_finger_02_JNT",
+                                        "resourceId": "116",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_finger_03_JNT",
+                                        "resourceId": "90",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_finger_04_JNT",
+                                        "resourceId": "129",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_clavicle_JNT",
+                                        "resourceId": "110",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_upperarm_JNT",
+                                        "resourceId": "87",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_atwist_JNT",
+                                        "resourceId": "95",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_l_arm_JNT",
+                                        "resourceId": "120",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_latwist_JNT",
+                                        "resourceId": "88",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_hand_JNT",
+                                        "resourceId": "93",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_finger_01_JNT",
+                                        "resourceId": "122",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_finger_02_JNT",
+                                        "resourceId": "112",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_finger_03_JNT",
+                                        "resourceId": "111",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_finger_04JNT",
+                                        "resourceId": "98",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_01_JNT",
+                                        "resourceId": "106",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_02_JNT",
+                                        "resourceId": "89",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_03_JNT",
+                                        "resourceId": "109",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_04_JNT",
+                                        "resourceId": "124",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_05_JNT",
+                                        "resourceId": "130",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_06_JNT",
+                                        "resourceId": "79",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_07_JNT",
+                                        "resourceId": "131",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_08_JNT",
+                                        "resourceId": "100",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_09_JNT",
+                                        "resourceId": "69",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_10_JNT",
+                                        "resourceId": "99",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "tail_11_JNT",
+                                        "resourceId": "133",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "hips_JNT",
+                                        "resourceId": "78",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_leg_JNT",
+                                        "resourceId": "136",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_leg_T_JNT",
+                                        "resourceId": "134",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_knee_JNT",
+                                        "resourceId": "135",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_l_knee_JNT",
+                                        "resourceId": "137",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_foot_JNT",
+                                        "resourceId": "77",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "left_toe_JNT",
+                                        "resourceId": "76",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_leg_JNT",
+                                        "resourceId": "74",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_leg_T_JNT",
+                                        "resourceId": "75",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_knee_JNT",
+                                        "resourceId": "72",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_l_knee_JNT",
+                                        "resourceId": "73",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_foot_JNT",
+                                        "resourceId": "71",
+                                        "extension": ""
+                                    },
+                                    {
+                                        "name": "right_toe_JNT",
+                                        "resourceId": "70",
+                                        "extension": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "resources": ""
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "animation",
+                        "resourceId": "174",
+                        "extension": ""
+                    }
+                ]
+            },
+            "publicAssets": [
+                {
+                    "id": "5",
+                    "path": "Meshes\/ground_grid_mesh.mesh"
+                },
+                {
+                    "id": "7",
+                    "path": "Scripts\/GroundGrid.js"
+                },
+                {
+                    "id": "9",
+                    "path": "Textures\/ground_grid.png"
+                },
+                {
+                    "id": "10",
+                    "path": "Textures\/ground_grid_mask.png"
+                },
+                {
+                    "id": "13",
+                    "path": "Scripts\/WorldObjectController.js"
+                },
+                {
+                    "id": "14",
+                    "path": "Scripts\/IdleAnim.js"
+                },
+                {
+                    "id": "64",
+                    "path": "Red_Panda_FBX [REMOVE_ME]\/Textures\/red_panda_base.png"
+                },
+                {
+                    "id": "67",
+                    "path": "Red_Panda_FBX [REMOVE_ME]\/Meshes\/red_panda_lo.mesh"
+                },
+                {
+                    "id": "68",
+                    "path": "Red_Panda_FBX [REMOVE_ME]\/Meshes\/innertube_lo.mesh"
+                },
+                {
+                    "id": "146",
+                    "path": "Red_Panda_FBX [REMOVE_ME]\/Textures\/red_panda_normal.png"
+                },
+                {
+                    "id": "147",
+                    "path": "Red_Panda_FBX [REMOVE_ME]\/Textures\/red_panda_param.png"
+                },
+                {
+                    "id": "156",
+                    "path": "Textures\/marvista_diff.png"
+                },
+                {
+                    "id": "157",
+                    "path": "Textures\/marvista_spec.png"
+                },
+                {
+                    "id": "160",
+                    "path": "Meshes\/touch_collision_cube.mesh"
+                },
+                {
+                    "id": "168",
+                    "path": "Meshes\/Plane.mesh"
+                },
+                {
+                    "id": "174",
+                    "path": "animation"
+                }
+            ]
+        }
+    }
+}
