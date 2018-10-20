@@ -31,14 +31,7 @@ def main:
     HIGH_GPA = float(sys.stdin.readline())
     print("Is the High School GPA weighted? y/n:")
     kbw = sys.stdin.readline().strip
-
-    #print(kbw)
-    if(kbw == "y"):
-        weighted = True
-    elif(kbw == "n"):
-        weighted = False
-    else:
-        print("Invalid Input... Assuming GPA Unweighted")
+    kbw = check_kbw(kbw)
 
     # #
     #
@@ -56,5 +49,16 @@ def main:
 
     print("Rounded GPA (Weighted): ", rounded_gpa)
 
+def check_kbw(kbw):
+    if (kbw == "y"):
+        return True
+    elif (kbw == "n"):
+        return False
+    else:
+        print("Invalid Input... Assuming GPA Unweighted")
+        return False
+
 if __name__== "__main__":
-  main()
+    main()
+
+
