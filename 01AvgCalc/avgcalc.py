@@ -9,7 +9,7 @@
 
 import sys
 
-def Main:
+def main:
     Sname ="Derek Brambles"
     ColGPA = 1.389454
     HighGPA = 3.7
@@ -55,4 +55,5 @@ def Main:
 
     print("Rounded GPA (Weighted): ", RoundedGPA)
 
-
+if __name__== "__main__":
+  main()
