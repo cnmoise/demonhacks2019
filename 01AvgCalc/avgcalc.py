@@ -23,15 +23,11 @@ def main:
 
     #by default stdin takes input as strings
     #therefore we have to explicitly cast the input as a float
-    print("Please enter the students name:")
-    S_NAME = sys.stdin.readline()
-    print("Please enter the students College GPA:")
-    COL_GPA = float(sys.stdin.readline())
-    print("Please enter the students High School GPA:")
-    HIGH_GPA = float(sys.stdin.readline())
+    S_NAME = get_inputs("Please enter the students name:\n")
+    COL_GPA = float(get_inputs("Please enter the students College GPA:\n"))
+    HIGH_GPA = float(get_inputs("Please enter the students High School GPA:\n"))
     print("Is the High School GPA weighted? y/n:")
-    kbw = sys.stdin.readline().strip
-    kbw = check_kbw(kbw)
+    kbw = check_kbw(get_inputs("Is the High School GPA weighted? y/n:\n").strip())
 
     # #
     #
@@ -48,6 +44,10 @@ def main:
 	    print("High School GPA (Unweighted): ", HIGH_GPA)
 
     print("Rounded GPA (Weighted): ", rounded_gpa)
+
+def get_inputs(msg):
+    print(msg)
+    return sys.stdin.readline()
 
 def check_kbw(kbw):
     if (kbw == "y"):
