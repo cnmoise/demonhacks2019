@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for, flash, redirect
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 import json
-from forms import RegistrationForm, LoginForm, InputForm
+from forms import RegistrationForm, LoginForm, InputForm, FridgeForm
 
 
 app = Flask(__name__)
@@ -26,6 +26,8 @@ recipes = ast.literal_eval(open('recipes.json', 'r').read())
 for stuff in recipes:
     print(stuff['title']+':\t'+stuff['image'])
 
+# does the analysis of the image for getting the ingredients of someones fridge
+# clairify
 print(get_ingredients('https://samples.clarifai.com/food.jpg'))
 ingredients = parse_ingredients(get_ingredients('https://samples.clarifai.com/food.jpg'))
 print(ingredients)
@@ -75,9 +77,18 @@ def login():
             flash('Login Unsuccessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
 
-@app.route("/fridge")
+@app.route("/fridge", methods=['GET', 'POST'])
 def fridge():
-	return render_template('fridge.html', title='Fridge')
+	form = FridgeForm()
+	if form.validate_on_submit():
+	    flash(f'Succesfully uploaded a picture from URL: {form.fridge_image_url.data}', 'success')
+	    temp = str(form.fridge_image_url.data)
+	    print(parse_ingredients(get_ingredients(temp)))
+	    return redirect(url_for('home'))
+	    
+	# else:
+ #        flash('URL upload unsuccessful.', 'danger')
+	return render_template('fridge.html', title='Fridge', form=form)
 
 if __name__ == '__main__':
 	app.run(debug=True)

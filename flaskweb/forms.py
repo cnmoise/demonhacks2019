@@ -24,7 +24,7 @@ class LoginForm(FlaskForm):
 class FridgeForm(FlaskForm):
     fridge_image_url = StringField('Image URL',
                         validators=[DataRequired(), URL()])
-    submit = SubmitField('FridgeImage')
+    submit = SubmitField('Submit an image of your fridge')
 
 class InputForm(FlaskForm):
     Image_url = StringField('Image URL',
