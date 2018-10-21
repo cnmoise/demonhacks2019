@@ -50,17 +50,8 @@ def main():
     # INGREDIENTS = ['apple', 'flour', 'sugar']
     # print(get_recipes(INGREDIENTS))
     
-<<<<<<< HEAD
     print(get_ingredients('https://samples.clarifai.com/food.jpg'))
-=======
-    print(get_ingredients())
-<<<<<<< HEAD
     # print("Add something to the main function")
-=======
->>>>>>> 045fa2d81d99f693f9fceb3902488272cc8e5955
-    #print("Add something to the main function")
->>>>>>> 8ff736d9e7cfc70fb966398d1142473c8aecc908
-
 
 if __name__ == '__main__':
     main()
