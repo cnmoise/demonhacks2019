@@ -41,12 +41,15 @@
 		<article class="media content-section">
 		  <div class="media-body">
 		    <h2><a class="article-title" href="#">{{ recipe.title }}</a></h2>
-		    <p class="article-content"><img src="{{recipe.image}}"></p>
+		    <p class="article-content"><img src="{{recipe.image}}">
+		    	<ul>
+		    	{% for ingredient in ingredients %}
+					<li>{{ ingredient }}</li>
+				{% endfor %}
+				</ul>
+			</p>
 		  </div>
 		</article>
-		{% for ingredient in ingredients %}
-			<p>{{ingredients.data}}</p>
-		{% endfor %}
 	{% endfor %}
 	{% for Image_url in Image_url %}
     <div class="content-section">

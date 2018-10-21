@@ -3,7 +3,7 @@
     "document_id": "bAfZdxxxxR5YUEeMvx3C",
     "original_document_id": "bAfZdxxxxR5YUEeMvx3C",
     "version": "1",
-    "lastChanged": "1540087520953",
+    "lastChanged": "1540119768116",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -46,6 +46,9 @@
                     ],
                     [
                         "animation_2"
+                    ],
+                    [
+                        "animation_3"
                     ]
                 ]
             ]
@@ -1252,6 +1255,16 @@
                     "flags": "1",
                     "type": "1",
                     "subtype": "5"
+                },
+                {
+                    "resId": "176",
+                    "uid": "1540090156045308:12462",
+                    "name": "\/Resources\/Resource176",
+                    "sourceFilePath": "C:\/Users\/claud\/AppData\/Local\/Temp\/Lens Studio-MyqQUj\/animation.t3d",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "5"
                 }
             ]
         },
@@ -1816,6 +1829,11 @@
                         "name": "animation_2",
                         "resourceId": "175",
                         "extension": ""
+                    },
+                    {
+                        "name": "animation_3",
+                        "resourceId": "176",
+                        "extension": ""
                     }
                 ]
             },
@@ -1887,6 +1905,10 @@
                 {
                     "id": "175",
                     "path": "animation_2"
+                },
+                {
+                    "id": "176",
+                    "path": "animation_3"
                 }
             ]
         },
