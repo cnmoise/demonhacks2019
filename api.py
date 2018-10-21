@@ -51,11 +51,8 @@ def main():
     # print(get_recipes(INGREDIENTS))
     
     print(get_ingredients())
-<<<<<<< HEAD
     # print("Add something to the main function")
-=======
     #print("Add something to the main function")
->>>>>>> 8ff736d9e7cfc70fb966398d1142473c8aecc908
 
 
 if __name__ == '__main__':
