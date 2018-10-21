@@ -38,7 +38,7 @@ def get_recipes(ingredient_list):
         'X-Mashape-Key': MASHAPE_KEY, 
         'Accept': 'application/json'}
     print(headers)
-    return requests.get(url, headers=headers)
+    return requests.get(url, headers=headers).json()
 
 
 def main():
