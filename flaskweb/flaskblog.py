@@ -56,8 +56,9 @@ print(ingredients)
 #<!-- So {% %} is a flask/python codeblock -->
 	#<!-- get variables {{ }} -->
 @app.route("/")
-@app.route("/home")
+@app.route("/home", methods=['GET', 'POST'])
 def home():
+    
     return render_template('home.html', posts = posts)
 
 @app.route("/about")
