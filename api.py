@@ -75,16 +75,17 @@ def get_recipe_url(recipe_id):
 
 
 def main():
-    ingredients = ['apple', 'flour', 'sugar']
+    #ingredients = ['apple', 'flour', 'sugar']
     #INGREDIENTS = open('ingredients.json', 'r').read().replace('"','"')
     #ingredients = parse_ingredients(INGREDIENTS)
-    print(get_recipes(ingredients))
+    #print(get_recipes(ingredients))
     #print(get_recipe_url(556470))
-    # jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
-    # print(get_ingredients('https://samples.clarifai.com/food.jpg'))
-    # print(jsoncrap['status'])
-    # print(jsoncrap['outputs'])
-    # print(jsoncrap['data'])
+    print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    #jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
+    #print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    #print(jsoncrap['status'])
+    #print(jsoncrap['outputs'])
+    #print(jsoncrap['data'])
 
 
     print("Add something to the main function")
