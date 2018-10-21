@@ -2,8 +2,6 @@ import requests
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as CImage
 
-app = ClarifaiApp(api_key=get_api_key('keys/clarifai.key'))
-
 
 #Function that reads in a file and reads the first line
 def get_api_key(filename):
@@ -12,6 +10,9 @@ def get_api_key(filename):
             return f.read().strip()
     except FileNotFoundError:
         print(filename + ' file not found')
+
+
+app = ClarifaiApp(api_key=get_api_key('keys/clarifai.key'))
 
 
 #Function that returns an ingredients list in JSON given an image URL
@@ -46,11 +47,15 @@ def get_recipes(ingredient_list):
 
 
 def main():
-    #INGREDIENTS = ['apple', 'flour', 'sugar']
-    #print(get_recipes(INGREDIENTS))
+    # INGREDIENTS = ['apple', 'flour', 'sugar']
+    # print(get_recipes(INGREDIENTS))
     
-    #print(get_ingredients())
-    print("Add something to the main function")
+    print(get_ingredients())
+<<<<<<< HEAD
+    # print("Add something to the main function")
+=======
+    #print("Add something to the main function")
+>>>>>>> 8ff736d9e7cfc70fb966398d1142473c8aecc908
 
 
 if __name__ == '__main__':
