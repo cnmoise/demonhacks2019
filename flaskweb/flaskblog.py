@@ -58,8 +58,13 @@ print(ingredients)
 @app.route("/")
 @app.route("/home", methods=['GET', 'POST'])
 def home():
+<<<<<<< HEAD
     form = InputForm()
     return render_template('home.html', posts = posts, recipes = recipes, form = form)
+=======
+
+    return render_template('home.html', posts = posts, recipes = recipes, ingredients = ingredients)
+>>>>>>> 5f322027160d59057e84101a9cad6937c56f69f2
 
 @app.route("/about")
 def about():

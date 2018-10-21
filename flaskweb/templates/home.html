@@ -44,7 +44,9 @@
 		    <p class="article-content"><img src="{{recipe.image}}"></p>
 		  </div>
 		</article>
-		
+		{% for ingredient in ingredients %}
+			<p>{{ingredients.data}}</p>
+		{% endfor %}
 	{% endfor %}
 	{% for Image_urls in Image_url %}
     <div class="content-section">
