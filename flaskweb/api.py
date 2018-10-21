@@ -56,7 +56,10 @@ def get_recipes(ingredient_list):
     headers = {
         'X-Mashape-Key': MASHAPE_KEY, 
         'Accept': 'application/json'}
-    return requests.get(url, headers=headers).json()
+    recipes = requests.get(url, headers=headers).json()
+    for recipe in recipes:
+        recipe.update({'url': get_recipe_url(recipe['id'])})
+    return recipes
 
 
 def get_recipe_url(recipe_id):
@@ -75,8 +78,8 @@ def main():
     ingredients = ['apple', 'flour', 'sugar']
     #INGREDIENTS = open('ingredients.json', 'r').read().replace('"','"')
     #ingredients = parse_ingredients(INGREDIENTS)
-    #print(get_recipes(ingredients))
-    print(get_recipe_url(556470))
+    print(get_recipes(ingredients))
+    #print(get_recipe_url(556470))
     # jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
     # print(get_ingredients('https://samples.clarifai.com/food.jpg'))
     # print(jsoncrap['status'])
