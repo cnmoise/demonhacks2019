@@ -1,7 +1,7 @@
 import requests
 from clarifai.rest import ClarifaiApp
 
-app = ClarifaiApp(api_key=get_api_key(../keys/clarifai.key))
+app = ClarifaiApp(api_key=get_api_key(keys/clarifai.key))
 app = ClarifaiApp()
 
 
@@ -21,7 +21,7 @@ def get_ingredients(image):
 def get_recipes(ingredient_list):
     MAX_RESULTS = 5
     DELIMETER = '%2C'
-    MASHAPE_KEY = get_api_key(../keys/mashape.key)
+    MASHAPE_KEY = get_api_key(keys/mashape.key)
     PREFIX_URL = (
         'https://spoonacular-recipe-food-nutrition-v1.p.mashape.'
         'com/recipes/findByIngredients?fillIngredients=false&'
