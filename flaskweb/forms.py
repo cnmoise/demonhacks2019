@@ -21,6 +21,11 @@ class LoginForm(FlaskForm):
     remember = BooleanField('Remember Me')
     submit = SubmitField('Login')
 
+class FridgeForm(FlaskForm):
+    fridge_image_url = StringField('Image URL',
+                        validators=[DataRequired(), URL()])
+    submit = SubmitField('FridgeImage')
+
 class InputForm(FlaskForm):
     Image_url = StringField('Image URL',
                         validators=[DataRequired(), URL()])

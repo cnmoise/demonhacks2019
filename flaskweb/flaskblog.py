@@ -43,6 +43,9 @@ print(get_ingredients('https://samples.clarifai.com/food.jpg'))
 ingredients = parse_ingredients(get_ingredients('https://samples.clarifai.com/food.jpg'))
 print(ingredients)
 
+# form = InputForm()
+# form = form
+
 # recipes= get_recipes(ingredients)
 # print(recipes)
 # print(ingredients["status"][0][0])
@@ -58,13 +61,7 @@ print(ingredients)
 @app.route("/")
 @app.route("/home", methods=['GET', 'POST'])
 def home():
-<<<<<<< HEAD
-    form = InputForm()
-    return render_template('home.html', posts = posts, recipes = recipes, form = form)
-=======
-
     return render_template('home.html', posts = posts, recipes = recipes, ingredients = ingredients)
->>>>>>> 5f322027160d59057e84101a9cad6937c56f69f2
 
 @app.route("/about")
 def about():
@@ -89,6 +86,10 @@ def login():
         else:
             flash('Login Unsuccessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
+
+@app.route("/fridge")
+def fridge():
+	return render_template('fridge.html', title='Fridge')
 
 if __name__ == '__main__':
 	app.run(debug=True)
