@@ -1,17 +1,5 @@
 {% extends "layout.html" %}
 {% block content%}
-	{% for post in posts %}
-		<article class="media content-section">
-		  <div class="media-body">
-		    <div class="article-metadata">
-		      <a class="mr-2" href="#">{{ post.author }}</a>
-		      <small class="text-muted">{{ post.date_posted }}</small>
-		    </div>
-		    <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
-		    <p class="article-content">{{ post.content }}</p>
-		  </div>
-		</article>
-	{% endfor %}
 	{% for Image_url in Image_url %}
 	<div class="content-section">
 			<form method="POST" action="">
@@ -40,7 +28,7 @@
 	{% for recipe in recipes %}
 		<article class="media content-section">
 		  <div class="media-body">
-		    <h2><a class="article-title" href="#">{{ recipe.title }}</a></h2>
+		    <h2><a class="article-title" href="{{get_recipe_url(recipe.recipe_id)}}">{{ recipe.title }}</a></h2>
 		    <p class="article-content"><img src="{{recipe.image}}">
 		    	<ul>
 		    	{% for ingredient in ingredients %}

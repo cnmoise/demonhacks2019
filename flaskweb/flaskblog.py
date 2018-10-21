@@ -11,26 +11,13 @@ from api import get_ingredients
 from api import parse_ingredients
 from api import get_api_key
 from api import main
+from api import get_recipe_url
 
 import ast
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
 
-posts = [
-	{
-		'author' : 'Stuart naue',
-		'title' : 'Blog Post 1',
-		'content' : 'HUGE CHINA',
-		'date_posted': 'April 20, 2018'
-	},
-	{
-		'author' : 'Claude Moist',
-		'title' : 'Blog Post 2',
-		'content' : 'HOT SISTER',
-		'date_posted': 'April 20, 2017'
-	}
-]
 # recipes = ast.literal_eval(open('recipes.json', 'r').read())
 # print(type(recipes))
 # print(recipes[0]['title'])
@@ -43,6 +30,7 @@ print(get_ingredients('https://samples.clarifai.com/food.jpg'))
 ingredients = parse_ingredients(get_ingredients('https://samples.clarifai.com/food.jpg'))
 print(ingredients)
 
+# get_recipe_url = get_recipe_url
 # form = InputForm()
 # form = form
 
@@ -61,7 +49,7 @@ print(ingredients)
 @app.route("/")
 @app.route("/home", methods=['GET', 'POST'])
 def home():
-    return render_template('home.html', posts = posts, recipes = recipes, ingredients = ingredients)
+    return render_template('home.html', recipes = recipes, ingredients = ingredients)
 
 @app.route("/about")
 def about():
