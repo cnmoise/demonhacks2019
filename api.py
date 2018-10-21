@@ -59,6 +59,20 @@ def get_recipes(ingredient_list):
     return requests.get(url, headers=headers).json()
 
 
+def add_recipe_url(recipe_list):
+    recipes = []
+    PREFIX_URL = (
+        'https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/')
+    SUFFIX_URL = '/information'
+    HEADERS = {
+        'X-Mashape-Key': MASHAPE_KEY,
+        'Accept': 'application/json'}
+    for recipe in recipe_list:
+        url = PREFIX_URL + str(recipe['id']) + SUFFIX_URL
+        recipes.append(requests.get(url, headers=headers).json())
+    return recipes
+
+
 def main():
     # INGREDIENTS = ['apple', 'flour', 'sugar']
     # print(get_recipes(INGREDIENTS))
