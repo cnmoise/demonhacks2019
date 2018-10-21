@@ -1,8 +1,6 @@
 import requests
-#from clarifai.rest import ClarifaiApp
-
-#app = ClarifaiApp(api_key=get_api_key('keys/clarifai.key'))
-#app = ClarifaiApp()
+from clarifai.rest import ClarifaiApp
+from clarifai.rest import Image as CImage
 
 
 def get_api_key(filename):
@@ -12,11 +10,16 @@ def get_api_key(filename):
     except FileNotFoundError:
         print(filename + ' file not found')
 
+print(get_api_key('keys/clarifai.key'))
+print(get_api_key('keys/mashape.key'))
+app = ClarifaiApp(api_key=get_api_key('keys/clarifai.key'))
 
-def get_ingredients(image):
+
+def get_ingredients():
     model = app.models.get('food-items-v1.0')
+    image = CImage(url='https://samples.clarifai.com/food.jpg')
     return model.predict([image])
-    
+
 
 def get_recipes(ingredient_list):
     MAX_RESULTS = 5
@@ -42,9 +45,10 @@ def get_recipes(ingredient_list):
 
 
 def main():
-    INGREDIENTS = ['apple', 'flour', 'sugar']
-    print(get_recipes(INGREDIENTS))
-
+    #INGREDIENTS = ['apple', 'flour', 'sugar']
+    #print(get_recipes(INGREDIENTS))
+    
+    print(get_ingredients())
 
 if __name__ == '__main__':
     main()
