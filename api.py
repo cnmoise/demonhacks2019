@@ -1,7 +1,7 @@
 import requests
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as CImage
-
+import json
 
 #Function that reads in a file and reads the first line
 def get_api_key(filename):
@@ -26,9 +26,9 @@ def get_ingredients(image):
 def parse_ingredients(ingredients_json):
     THRESHOLD = 0.65
     ingredient_list = []
-    ingredients = open('ingredients.json', 'r'.read().replace("'", '"')
-    json_object = json.loads(ingredients)
-    json_data = json_object["output"][0]["data"]["concepts"]
+    ingredients = str(ingredients_json).replace("'", '"')
+    json_blob = json.loads(ingredients)
+    json_data = json_blob["outputs"][0]["data"]["concepts"]
     for objects in json_data:
         if(objects['value'] >= THRESHOLD):
             ingredient_list.append(objects['name'])
@@ -59,26 +59,33 @@ def get_recipes(ingredient_list):
     return requests.get(url, headers=headers).json()
 
 
-def add_recipe_url(recipe_list):
-    recipes = []
+def get_recipe_url(recipe_id):
+    MASHAPE_KEY = get_api_key('keys/mashape.key')
     PREFIX_URL = (
         'https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/')
     SUFFIX_URL = '/information'
-    HEADERS = {
+    headers = {
         'X-Mashape-Key': MASHAPE_KEY,
         'Accept': 'application/json'}
-    for recipe in recipe_list:
-        url = PREFIX_URL + str(recipe['id']) + SUFFIX_URL
-        recipes.append(requests.get(url, headers=headers).json())
-    return recipes
+    url = PREFIX_URL + str(recipe_id) + SUFFIX_URL
+    return requests.get(url, headers=headers).json()['spoonacularSourceUrl']
 
 
 def main():
-    # INGREDIENTS = ['apple', 'flour', 'sugar']
-    # print(get_recipes(INGREDIENTS))
-    
-    print(get_ingredients('https://samples.clarifai.com/food.jpg'))
-    # print("Add something to the main function")
+    ingredients = ['apple', 'flour', 'sugar']
+    #INGREDIENTS = open('ingredients.json', 'r').read().replace('"','"')
+    #ingredients = parse_ingredients(INGREDIENTS)
+    #print(get_recipes(ingredients))
+    print(get_recipe_url(556470))
+    # jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
+    # print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    # print(jsoncrap['status'])
+    # print(jsoncrap['outputs'])
+    # print(jsoncrap['data'])
+
+
+    print("Add something to the main function")
 
 if __name__ == '__main__':
     main()
+
