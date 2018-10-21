@@ -3,7 +3,7 @@
     "document_id": "bAfZdxxxxR5YUEeMvx3C",
     "original_document_id": "bAfZdxxxxR5YUEeMvx3C",
     "version": "1",
-    "lastChanged": "1540065427401",
+    "lastChanged": "1540087520953",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -43,6 +43,9 @@
                     ],
                     [
                         "animation"
+                    ],
+                    [
+                        "animation_2"
                     ]
                 ]
             ]
@@ -71,9 +74,7 @@
         },
         "InspectorUiComponent": {
             "collapsedList": [
-                [
-                    "1540064629513151:10967"
-                ]
+                ""
             ]
         },
         "LayerUiComponent": {
@@ -1241,6 +1242,16 @@
                     "flags": "1",
                     "type": "1",
                     "subtype": "5"
+                },
+                {
+                    "resId": "175",
+                    "uid": "1540087166862992:7600",
+                    "name": "\/Resources\/Resource175",
+                    "sourceFilePath": "C:\/Users\/claud\/AppData\/Local\/Temp\/Lens Studio-rwEjlZ\/animation.t3d",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "5"
                 }
             ]
         },
@@ -1286,36 +1297,6 @@
         }
     },
     "controller": {
-        "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1540064629513045:10965"
-                ]
-            }
-        },
-        "EffectsController": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "",
-            "10": "",
-            "11": "",
-            "12": "",
-            "13": "",
-            "14": "",
-            "15": "",
-            "16": ""
-        },
-        "ObjectPrefabController": {
-            "state": {
-                "objectToInfo": ""
-            },
-            "importInfo": ""
-        },
         "ResourceController": {
             "tree": {
                 "name": "Root",
@@ -1830,6 +1811,11 @@
                         "name": "animation",
                         "resourceId": "174",
                         "extension": ""
+                    },
+                    {
+                        "name": "animation_2",
+                        "resourceId": "175",
+                        "extension": ""
                     }
                 ]
             },
@@ -1897,8 +1883,42 @@
                 {
                     "id": "174",
                     "path": "animation"
+                },
+                {
+                    "id": "175",
+                    "path": "animation_2"
                 }
             ]
+        },
+        "InspectorController": {
+            "selection": {
+                "objects": [
+                    "1540064629513045:10965"
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
         }
     }
 }
