@@ -36,13 +36,8 @@ posts = [
 # print(recipes[0]['title'])
 
 recipes = ast.literal_eval(open('recipes.json', 'r').read())
-<<<<<<< HEAD
-for prick in recipes:
-    print(prick['title']+':\t'+prick['image'])
-=======
 for stuff in recipes:
     print(stuff['title']+':\t'+stuff['image'])
->>>>>>> 7158beb897a4cc83d9f3ef682b6d5aa335018b4b
 
 print(get_ingredients('https://samples.clarifai.com/food.jpg'))
 ingredients = parse_ingredients(get_ingredients('https://samples.clarifai.com/food.jpg'))
