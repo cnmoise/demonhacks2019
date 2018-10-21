@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for, flash, redirect
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 import json
-from forms import RegistrationForm, LoginForm
+from forms import RegistrationForm, LoginForm, InputForm
 
 
 app = Flask(__name__)
@@ -58,8 +58,13 @@ print(ingredients)
 @app.route("/")
 @app.route("/home", methods=['GET', 'POST'])
 def home():
+<<<<<<< HEAD
+    form = InputForm()
+    return render_template('home.html', posts = posts, recipes = recipes, form = form)
+=======
 
     return render_template('home.html', posts = posts, recipes = recipes, ingredients = ingredients)
+>>>>>>> 5f322027160d59057e84101a9cad6937c56f69f2
 
 @app.route("/about")
 def about():

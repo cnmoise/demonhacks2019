@@ -24,4 +24,4 @@ class LoginForm(FlaskForm):
 class InputForm(FlaskForm):
     Image_url = StringField('Image URL',
                         validators=[DataRequired(), URL()])
-    submit = SubmitField('Login')
+    submit = SubmitField('Image')
