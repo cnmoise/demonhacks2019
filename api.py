@@ -39,12 +39,9 @@ def get_recipes(ingredient_list):
         '&ranking=1')
     ingredients = DELIMETER.join(ingredient_list)
     url = PREFIX_URL + ingredients + SUFFIX_URL
-    print(ingredients)
-    print(url)
     headers = {
         'X-Mashape-Key': MASHAPE_KEY, 
         'Accept': 'application/json'}
-    print(headers)
     return requests.get(url, headers=headers).json()
 
 
@@ -52,7 +49,8 @@ def main():
     #INGREDIENTS = ['apple', 'flour', 'sugar']
     #print(get_recipes(INGREDIENTS))
     
-    print(get_ingredients())
+    #print(get_ingredients())
+    print("Add something to the main function")
 
 
 if __name__ == '__main__':
