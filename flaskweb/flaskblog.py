@@ -32,6 +32,7 @@ print(get_ingredients('https://samples.clarifai.com/food.jpg'))
 ingredients = parse_ingredients(get_ingredients('https://samples.clarifai.com/food.jpg'))
 print(ingredients)
 
+
 # get_recipe_url = get_recipe_url
 # form = InputForm()
 # form = form
@@ -83,7 +84,16 @@ def fridge():
 	if form.validate_on_submit():
 	    flash(f'Succesfully uploaded a picture from URL: {form.fridge_image_url.data}', 'success')
 	    temp = str(form.fridge_image_url.data)
-	    print(parse_ingredients(get_ingredients(temp)))
+	    f = open("recipes.json", "w")
+	    global ingredients
+	    global recipes
+
+	    ingredients = parse_ingredients(get_ingredients(temp))
+	    recipes = get_recipes(ingredients)
+	    f.write(str(recipes))
+	    f.close()
+	    home()
+	    # render_template('home.html', recipes = recipes, ingredients = ingredients)
 	    return redirect(url_for('home'))
 	    
 	# else:
