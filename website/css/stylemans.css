@@ -1,0 +1,128 @@
+.holder{
+    display:inline-block;
+    background-color: black;
+    margin:0px;
+    padding:0px;
+    width:100vw
+}
+.words{
+    display:inline-block;
+    text-align:center;
+    background-color: red;
+    width:31vw;
+    padding: .3vw .1vw;
+    margin: .5vw .3vw;
+}
+.holder h1{
+    margin:1.4vh .3vw;
+    padding:.3vw .4vw;
+    font-size:4.5vw;
+    font-weight:1000;
+    color:black;
+    font-family: 'Supermercado One', cursive;
+    font-style:italic;
+}
+.holder a{
+    text-decoration:none;
+}
+#siegebody{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+.textblock1{
+    text-align: center;
+    font-size: 2vw;
+    color:blueviolet
+}
+.textblock2{
+    text-align: center;
+    font-size: 2vw;
+    color:aqua;
+}
+.textblock3{
+    text-align: center;
+    font-size: 2vw;
+    color:darkorange;
+}
+.textblock4{
+    text-align: center;
+    font-size: 2vw;
+    
+}
+.textblock4 a{
+     color:chartreuse;
+}
+.textblock4 a:visited{
+    color:chartreuse;
+}
+#martin{
+    text-align: center;
+    font-size: 3vw;
+}
+#martin a{
+    color:chartreuse;
+}
+#martin a:visited{
+    color:chartreuse;
+}
+#homebody{
+    margin:0px;
+    padding:0px;
+    background-color: #A1A1DF;
+    
+}
+#header{
+    margin:0px;
+    padding: 0px;
+    width:100vw;
+    background-color: #D90B15;
+}
+#header h1{
+    text-align:center;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:10vw;
+    margin:0px;
+    padding: 0px;
+    
+}
+.breadcrumb{
+    width:100vw;
+    
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    background-color:#141726;
+    color:#05F2DB;
+}
+.breadcrumb p{
+    display:inline-block;
+    margin:0px;
+    padding:20px;
+    width:220px;
+    color:#05F2DB;
+    font-size: 30px;
+    font-weight:600;
+}
+a{
+    text-decoration: none;
+    color:#05F2DB;
+    
+}
+a:visited{
+    color:#05F2DB;
+}
+.bottom{
+    text-align: center;
+    align-content: center;
+    background-color: #A1A1DF;    
+}
+
+#unrelaxeimages{
+    display:inline-block;
+    width:115vw;
+}
+.burgerimage{
+    
+}
