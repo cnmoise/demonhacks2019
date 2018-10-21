@@ -5,13 +5,13 @@ posts = [
 	{
 		'author' : 'Stuart naue',
 		'title' : 'Blog Post 1',
-		'conent' : 'HUGE CHINA',
+		'content' : 'HUGE CHINA',
 		'date_posted': 'April 20, 2018'
 	},
 	{
 		'author' : 'Claude Moist',
 		'title' : 'Blog Post 2',
-		'conent' : 'HOT SISTER',
+		'content' : 'HOT SISTER',
 		'date_posted': 'April 20, 2017'
 	}
 ]
