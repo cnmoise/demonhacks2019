@@ -36,8 +36,8 @@ posts = [
 # print(recipes[0]['title'])
 
 recipes = ast.literal_eval(open('recipes.json', 'r').read())
-for dicks in recipes:
-    print(dicks['title']+':\t'+dicks['image'])
+for prick in recipes:
+    print(prick['title']+':\t'+prick['image'])
 
 print(get_ingredients('https://samples.clarifai.com/food.jpg'))
 ingredients = parse_ingredients(get_ingredients('https://samples.clarifai.com/food.jpg'))
@@ -58,7 +58,7 @@ print(ingredients)
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html', posts = posts)
+    return render_template('home.html', posts = posts, recipes = recipes)
 
 @app.route("/about")
 def about():
