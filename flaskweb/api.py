@@ -1,8 +1,7 @@
 import requests
-import json
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as CImage
-
+import json
 
 #Function that reads in a file and reads the first line
 def get_api_key(filename):
@@ -60,18 +59,32 @@ def get_recipes(ingredient_list):
     return requests.get(url, headers=headers).json()
 
 
+def get_recipe_url(recipe_id):
+    MASHAPE_KEY = get_api_key('keys/mashape.key')
+    PREFIX_URL = (
+        'https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/')
+    SUFFIX_URL = '/information'
+    headers = {
+        'X-Mashape-Key': MASHAPE_KEY,
+        'Accept': 'application/json'}
+    url = PREFIX_URL + str(recipe_id) + SUFFIX_URL
+    return requests.get(url, headers=headers).json()['spoonacularSourceUrl']
+
+
 def main():
-    # INGREDIENTS = ['apple', 'flour', 'sugar']
-    # print(get_recipes(INGREDIENTS))
-    
+    ingredients = ['apple', 'flour', 'sugar']
+    #INGREDIENTS = open('ingredients.json', 'r').read().replace('"','"')
+    #ingredients = parse_ingredients(INGREDIENTS)
+    #print(get_recipes(ingredients))
+    print(get_recipe_url(556470))
     # jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
-    print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    # print(get_ingredients('https://samples.clarifai.com/food.jpg'))
     # print(jsoncrap['status'])
     # print(jsoncrap['outputs'])
     # print(jsoncrap['data'])
 
 
-    # print("Add something to the main function")
+    print("Add something to the main function")
 
 if __name__ == '__main__':
     main()
