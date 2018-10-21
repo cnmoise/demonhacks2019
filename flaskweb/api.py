@@ -1,4 +1,5 @@
 import requests
+import json
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as CImage
 
@@ -26,9 +27,9 @@ def get_ingredients(image):
 def parse_ingredients(ingredients_json):
     THRESHOLD = 0.65
     ingredient_list = []
-    ingredients = open('ingredients.json', 'r'.read().replace("'", '"')
-    json_object = json.loads(ingredients)
-    json_data = json_object["output"][0]["data"]["concepts"]
+    ingredients = str(ingredients_json).replace("'", '"')
+    json_blob = json.loads(ingredients)
+    json_data = json_blob["outputs"][0]["data"]["concepts"]
     for objects in json_data:
         if(objects['value'] >= THRESHOLD):
             ingredient_list.append(objects['name'])
@@ -63,11 +64,11 @@ def main():
     # INGREDIENTS = ['apple', 'flour', 'sugar']
     # print(get_recipes(INGREDIENTS))
     
-    jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
-    # print(get_ingredients('https://samples.clarifai.com/food.jpg'))
-    print(jsoncrap['status'])
-    print(jsoncrap['outputs'])
-    print(jsoncrap['data'])
+    # jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
+    print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    # print(jsoncrap['status'])
+    # print(jsoncrap['outputs'])
+    # print(jsoncrap['data'])
 
 
     # print("Add something to the main function")
