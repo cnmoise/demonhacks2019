@@ -46,11 +46,11 @@ def get_recipes(ingredient_list):
 
 
 def main():
-    #INGREDIENTS = ['apple', 'flour', 'sugar']
-    #print(get_recipes(INGREDIENTS))
+    # INGREDIENTS = ['apple', 'flour', 'sugar']
+    # print(get_recipes(INGREDIENTS))
     
-    #print(get_ingredients())
-    print("Add something to the main function")
+    print(get_ingredients())
+    # print("Add something to the main function")
 
 
 if __name__ == '__main__':
