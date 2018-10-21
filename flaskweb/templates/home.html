@@ -46,23 +46,23 @@
 		</article>
 		
 	{% endfor %}
-	{% for Image_url in Image_url %}
+	{% for Image_urls in Image_url %}
     <div class="content-section">
         <form method="POST" action="">
             {{ form.hidden_tag() }}
             <fieldset class="form-group">
 								<legend class="border-bottom mb-4">Use our app!</legend>
 								<div class="form-group">
-									{{ form.Image_url.label(class="form-control-label") }}
-									{% if form.Image_url.errors %}
-											{{ form.Image_url(class="form-control form-control-lg is-invalid") }}
+									{{ form.Image_urls.label(class="form-control-label") }}
+									{% if form.Image_urls.errors %}
+											{{ form.Image_urls(class="form-control form-control-lg is-invalid") }}
 											<div class="invalid-feedback">
 													{% for error in form.email.errors %}
 															<span>{{ error }}</span>
 													{% endfor %}
 											</div>
 									{% else %}
-											{{ form.Image_url(class="form-control form-control-lg") }}
+											{{ form.Image_urls(class="form-control form-control-lg") }}
 									{% endif %}
 							</div>
 						</fieldset>
