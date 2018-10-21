@@ -8,6 +8,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
+.ingredientpills ul {
+    padding: 0;
+    overflow: hidden;
+}
+
+.ingredientpills li {
+  background-color: #440BD2;
+  list-style-type: none;
+  float: left;
+    padding: 0px 5px 0px 5px;
+    margin: 2px 5px 2px 5px;
+  
+  border: solid 2px #3F6C8F;
+  border-radius: 3px;
+}
+
 .bg-steel {
   background-color: #5f788a;
 }
