@@ -12,6 +12,31 @@
 		  </div>
 		</article>
 	{% endfor %}
+	{% for Image_url in Image_url %}
+	<div class="content-section">
+			<form method="POST" action="">
+					{{ form.hidden_tag() }}
+					<fieldset class="form-group">
+							<legend class="border-bottom mb-4">Use our app!</legend>
+							<div class="form-group">
+								{{ form.Image_url.label(class="form-control-label") }}
+								{% if form.Image_url.errors %}
+										{{ form.Image_url(class="form-control form-control-lg is-invalid") }}
+										<div class="invalid-feedback">
+												{% for error in form.email.errors %}
+														<span>{{ error }}</span>
+												{% endfor %}
+										</div>
+								{% else %}
+										{{ form.Image_url(class="form-control form-control-lg") }}
+								{% endif %}
+						</div>
+					</fieldset>
+					<div class="form-group">
+							{{ form.submit(class="btn btn-outline-info") }}
+					</div>
+			</form>
+			{% endfor %}
 	{% for recipe in recipes %}
 		<article class="media content-section">
 		  <div class="media-body">
@@ -21,4 +46,29 @@
 		</article>
 		
 	{% endfor %}
+	{% for Image_url in Image_url %}
+    <div class="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+								<legend class="border-bottom mb-4">Use our app!</legend>
+								<div class="form-group">
+									{{ form.Image_url.label(class="form-control-label") }}
+									{% if form.Image_url.errors %}
+											{{ form.Image_url(class="form-control form-control-lg is-invalid") }}
+											<div class="invalid-feedback">
+													{% for error in form.email.errors %}
+															<span>{{ error }}</span>
+													{% endfor %}
+											</div>
+									{% else %}
+											{{ form.Image_url(class="form-control form-control-lg") }}
+									{% endif %}
+							</div>
+						</fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+				</form>
+				{% endfor %}
 {% endblock content%}
