@@ -23,6 +23,19 @@ def get_ingredients(image):
     return model.predict([image])
 
 
+def parse_ingredients(ingredients_json):
+    THRESHOLD = 0.65
+    ingredient_list = []
+    ingredients = open('ingredients.json', 'r'.read().replace("'", '"')
+    json_object = json.loads(ingredients)
+    json_data = json_object["output"][0]["data"]["concepts"]
+    for objects in json_data:
+        if(objects['value'] >= THRESHOLD):
+            ingredient_list.append(objects['name'])
+    return ingredient_list
+
+
+
 #Get a list of recipes names and respective image URLs in JSON format.
 #The returned recipes minimise the missing ingredients \
 #to maximise fridge value.
