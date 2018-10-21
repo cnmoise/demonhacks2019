@@ -50,8 +50,15 @@ def main():
     # INGREDIENTS = ['apple', 'flour', 'sugar']
     # print(get_recipes(INGREDIENTS))
     
-    print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    jsoncrap = get_ingredients('https://samples.clarifai.com/food.jpg')
+    # print(get_ingredients('https://samples.clarifai.com/food.jpg'))
+    print(jsoncrap['status'])
+    print(jsoncrap['outputs'])
+    print(jsoncrap['data'])
+
+
     # print("Add something to the main function")
 
 if __name__ == '__main__':
     main()
+
