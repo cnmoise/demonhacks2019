@@ -1,4 +1,4 @@
-certifi==2018.10.15
+certifi==2022.12.7
 chardet==3.0.4
 clarifai==2.4.0
 Click==7.0
